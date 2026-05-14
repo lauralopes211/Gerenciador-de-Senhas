@@ -55,7 +55,7 @@ O operador pode selecionar o destino da chamada através de um menu suspenso:
 | **Texto/Ícones** | `#F1F5F9` | Leitura Clara |
 
 ---
-
+https://lauralopes211.github.io/Gerenciador-de-Senhas/
 ## 📝 Licença
 
 Este projeto é destinado a fins de estudo e uso livre. Sinta-se à vontade para clonar, modificar e melhorar o código!
