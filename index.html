@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sistema de Atendimento</h1>
+
+        <div class="datahora">
+            <h2 id="data"></h2>
+            <h2 id="hora"></h2>
+        </div>
+
+        <div class="controles-geracao">
+            <button id="btnGerarNormal" class="btn-normal">Senha Normal</button>
+            <button id="btnGerarPref" class="btn-pref">Senha Preferencial</button>
+        </div>
+
+        <div class="senhaBox">
+            <h2>Última Gerada:</h2>
+            <h1 id="senha">---</h1>
+        </div>
+
+        <hr>
+
+        <div class="guiche">
+            <label>Local de Atendimento:</label>
+            <select id="sala">
+                <option value="Triagem">Triagem</option>
+                <option value="Raio X">Consultório 1</option>
+                <option value="Consultório">Consultório 2</option>
+                <option value="Cirurgia">Consultório 3</option>
+                <option value="Emergência">Emergência</option>
+            </select>
+        </div>
+
+        <button id="btnChamar" class="btn-chamar">🔔 Chamar Próximo</button>
+
+        <div class="painel-historico">
+            <h3>Últimas Chamadas</h3>
+            <div id="listaChamadas" class="cards-container">
+            </div>
+        </div>
+
+        <button id="btnLimpar" class="btn-limpar">Limpar Sistema</button>
+    </div>
+</body>
+
+</html>
